@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>My Awesome Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read a Book Right Now</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/black_book.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Hello World!</h1>
-    <p>Welcome to Jack's book world!</p>
+    <header>
+        <img src="assets/black_book.png" alt="A beautiful black book" class="hero-image" id="hero-book">
+        <h1>Read a Book Right Now</h1>
+        <p class="subtitle">Exploring the depths of imagination, one page at a time. Welcome to the official collection
+            of Jack's published works.</p>
+        <a href="#collection" class="cta-button">Browse Collection</a>
+    </header>
+
+    <main id="collection">
+        <section>
+            <h2>Featured Books</h2>
+            <div class="book-grid">
+                <div class="book-card">
+                    <h3>Coming Soon</h3>
+                    <p>The next great story is currently being written.</p>
+                </div>
+                <!-- Future books can be added here -->
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 4rem; color: #888; font-size: 0.9rem;">
+        &copy; 2026 Jack's Book World. All rights reserved.
+    </footer>
 </body>
+
 </html>
